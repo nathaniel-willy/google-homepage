@@ -7,28 +7,28 @@
     </head>
     <body>
         <div id="top-bar">
-            <a id="about" class="text-link left" href="#">About</a>
-            <a id="store" class="text-link left" href="#">Store</a>
-            <a id="gmail" class="text-link right" href="#">Gmail</a>
-            <a id="images" class="text-link right" href="#">Images</a>
-            <a id="apps" class="right" href="#"><img id="apps-icon" src="./images/apps-icon.png" height= 15px width= 15px alt="Google apps"></a>
-            <a id="signin" class="right" href="#">Sign in</a>
+            <a class="left text-link top" href="#">About</a>
+            <a class="left text-link top" href="#">Store</a>
+            <a class="right top" href="#" id="sign-in">Sign in</a>
+            <a alt="Google apps" class="right top" height=15px href="#"><img id="apps-icon" src="./images/apps-icon.png" width=15px></a>
+            <a class="right text-link top" href="#">Images</a>
+            <a class="right text-link top" href="#">Gmail</a>
         </div>
-        <div id="mainspace">
-            <img id="logo" src="./images/google-logo.png" alt="Google logo">
+        <div>
+            <img alt="Google logo" class="center" id="logo" src="./images/google-logo.png">
             <form>
-                <input type="text" id="search-bar" name="search-input"><br>
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <input class="center" id="search-bar" name="search-input" type="text">
+                <a href="#"><img class="center" id="mic" height="25px" src="./images/google-mic.png" width="25px"></a>
+                <input class="button center" id="button-1" type="submit" value="Google Search">
+                <input class="button center" id="button-2" type="submit" value="I'm Feeling Lucky">
             </form>
-            <a id="voice-search" href="#"><img id="vs-icon" src="./images/google-mic.png" height= 25px width= 25px></a>
         </div>
         <div id="bottom-bar">
-            <a id="advertising" class="text-link left" href="#">Advertising</a>
-            <a id="business" class="text-link left" href="#">Business</a>
-            <a id="privacy" class="text-link right" href="#">Privacy</a>
-            <a id="terms" class="text-link right" href="#">Terms</a>
-            <a id="settings" class="text-link right" href="#">Settings</a>
+            <a class="bottom left text-link" href="#">Advertising</a>
+            <a class="bottom left text-link" href="#">Business</a>
+            <a class="bottom right text-link" href="#">Privacy</a>
+            <a class="bottom right text-link" href="#">Terms</a>
+            <a class="bottom right text-link" href="#">Settings</a>
         </div>
     </body>
 </html>

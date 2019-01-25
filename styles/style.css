@@ -3,46 +3,111 @@ body {
     color: black;
     display: block;
     font-family: Arial, sans-serif;
-    height: 363px;
-    padding-bottom: 35px;
-    position: relative;
-    width: 980px;
 }
 
 #top-bar {
-    height: 30px;
-    width: 980px;
-}
-
-#mainspace {
-    height: 351px;
-    width: 980px;
-    margin-top: 89px;
+    height: 40px;
+    left: 0px;
+    min-width: 980px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: auto;
 }
 
 #bottom-bar {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    height: 40px;
-    width: 980px;
+    bottom: 0px;
+    height: 39px;
+    left: 0px;
+    min-width: 980px;
+    position: fixed;
+    right: 0px;
+    width: auto;
 }
 
 .text-link {
-    align-content: center;
     color: black;
-    font-size: 13px;
-    height: 15px;
-    justify-content: center;
-    opacity: 0.75;
+    font-size: 12px;
+    margin: 5px;
+    padding: 9px 0;
     text-decoration: none;
 }
 
-.left {
-    justify-items: left;
-    padding-left: 15px;
+.right {
+    float: right;
+    padding-right: 15px;
+    text-align: right;
 }
 
-.right {
-    justify-items: right;
-    padding-right: 15px;
+.left {
+    float: left;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.bottom {
+    opacity: 0.75;
+}
+
+.center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+#apps-icon {
+    margin: 5px;
+    padding: 7px 0;
+}
+
+#sign-in {
+    background-color: #4285f4;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 9px 18px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#logo {
+    margin-left: -136px;
+    margin-top: -192px;
+}
+
+#search-bar {
+    border: 2px solid #e4e4e4;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px #d4d4d4;
+    font-size: 16px;
+    margin-left: -302px;
+    margin-top: -80px;
+    padding: 15px 50px;
+    width: 500px;
+}
+
+#mic {
+    margin-left: 262px;
+    margin-top: -68px;
+    z-index: 1;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    color: #828282;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#button-1 {
+    margin-left: -155px;
+}
+
+#button-2 {
+    margin-left: 9px;
 }
